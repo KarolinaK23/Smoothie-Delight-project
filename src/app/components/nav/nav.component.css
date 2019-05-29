@@ -45,4 +45,11 @@ header a:hover {
 
 h1 {
     margin-block-start: 10px;
+    
+}
+img{
+    margin:auto ;
+    max-width: 100%;
+    height: auto;
+    vertical-align: baseline;
 }
