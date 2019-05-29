@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+}
+
+header {
+    background:black;
+    color: white;
+    padding-top: 15px;
+    min-height: 50px;
+    border-bottom:#FDD835 5px solid;
+}
+
+header .active {
+    color:#FDD835;
+    font-weight: bold;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    
+    font-size: 18px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover {
+    color: #FDD835;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    margin-block-start: 10px;
+}

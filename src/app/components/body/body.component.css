@@ -1,0 +1,17 @@
+h1,h6{
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    margin-bottom: 30px;
+text-align: center;
+}
+b{
+    color: #F57F17;
+}
+img{
+    margin:auto ;
+    max-width: 100%;
+    height: auto;
+}
