@@ -7,7 +7,7 @@ import { MainComponent } from './main/main.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-{ path: '', component: MainComponent},
+{ path: 'main', component: MainComponent},
 { path: 'components', children: 
 [
   { path: 'products', component: ProductsComponent },

@@ -1,22 +1,22 @@
-<header >
-       
-  <div class="container">
+<header>
 
-      <div id="branding">
-         <div class="row"><img src="assets/logo.jpg" alt="logo"><h1> Smoothie Delight</h1></div>
-          
-      </div>
+    <div class="container">
 
-      <nav>
-          <ul>
-              <li> <a [routerLink]= "['']"> Healthy and Delicious </a> </li>
-              <li> <a [routerLink]= "['/components/products']" routerLinkActive="active">Products</a> </li>
-              <li> <a [routerLink]= "['/components/body']" routerLinkActive="active">Body </a> </li>
-              <li> <a [routerLink]= "['/components/magazine']" routerLinkActive="active">Stay alert </a> </li>
-              <li> <a [routerLink]= "['/components/contact']" routerLinkActive="active">Find us </a> </li>
-          </ul>
-      </nav>
-  </div>
+        <div id="branding">
+            <div class="row"><img src="assets/logo.jpg" alt="logo">
+                <h1> Smoothie Delight</h1>
+            </div>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li> <a [routerLink]="['/main']" routerLinkActive="active"> Healthy and Delicious </a> </li>
+                <li> <a [routerLink]="['/components/products']" routerLinkActive="active">Products</a> </li>
+                <li> <a [routerLink]="['/components/body']" routerLinkActive="active">Body </a> </li>
+                <li> <a [routerLink]="['/components/magazine']" routerLinkActive="active">Stay alert </a> </li>
+                <li> <a [routerLink]="['/components/contact']" routerLinkActive="active">Find us </a> </li>
+            </ul>
+        </nav>
+    </div>
 </header>
-
-

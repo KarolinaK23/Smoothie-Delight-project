@@ -34,3 +34,7 @@
     float:right;
     border:8px solid white;
 }
+#phone, 
+#city{
+margin-right: 4px;
+}

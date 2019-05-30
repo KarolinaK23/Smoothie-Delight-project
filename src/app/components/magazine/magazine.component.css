@@ -7,3 +7,9 @@ a{
     color: black;
     
 }
+.material-icons{
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    height: 20px;
+    
+}
